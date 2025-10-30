@@ -1,0 +1,7 @@
+# Main theme library.
+global:
+  js:
+    js/custom-theme.js: {}
+  css:
+    layout:
+      css/layout/layout.css: {}
