@@ -1,0 +1,7 @@
+name: drupal-fe-app
+recipe: drupal10
+config:
+  php: "8.1"
+  drush: ^11
+  composer_version: 2-latest
+  webroot: web
