@@ -83,6 +83,8 @@
   {{ title_suffix }}
 
   <div{{ content_attributes.addClass('node__content') }}>
+
+    <p>{{ node.body.value | reading_time }}</p>
     {{ content }}
   </div>
 

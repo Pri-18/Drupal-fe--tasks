@@ -12,9 +12,9 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  custom_twig_filters: 0
   datetime: 0
   dblog: 0
-  devel_generate: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
@@ -26,7 +26,6 @@ module:
   help: 0
   history: 0
   image: 0
-  js_cookie: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -36,7 +35,6 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
-  quicktabs: 0
   search: 0
   shortcut: 0
   system: 0

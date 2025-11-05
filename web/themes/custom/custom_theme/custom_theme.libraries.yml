@@ -7,5 +7,4 @@ node:
       css/breadcrumb.css: {}
       css/menu.css: {}
     layout:
-      css/layout/layout.css: {}
       css/main.css: {}
