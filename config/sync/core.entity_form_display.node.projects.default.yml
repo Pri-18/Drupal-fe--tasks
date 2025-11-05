@@ -1,25 +1,26 @@
-uuid: 81da2980-eb58-4066-9943-48b7b968627f
+uuid: cdb217d2-f7f2-4ab2-b319-0cf2acbc983e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.field_test1
-    - field.field.node.page.field_test2
-    - node.type.page
+    - field.field.node.projects.body
+    - field.field.node.projects.field_proj_img
+    - field.field.node.projects.field_proj_paragraph
+    - image.style.thumbnail
+    - node.type.projects
   module:
+    - image
+    - paragraphs
     - path
     - text
-_core:
-  default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
-id: node.page.default
+id: node.projects.default
 targetEntityType: node
-bundle: page
+bundle: projects
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 31
+    weight: 121
     region: content
     settings:
       rows: 9
@@ -33,21 +34,31 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_test1:
-    type: string_textfield
-    weight: 121
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_test2:
-    type: string_textfield
+  field_proj_img:
+    type: image_image
     weight: 122
     region: content
     settings:
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_proj_paragraph:
+    type: paragraphs
+    weight: 123
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
     third_party_settings: {  }
   path:
     type: path

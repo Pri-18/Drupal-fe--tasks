@@ -1,0 +1,18 @@
+uuid: f15101f0-424b-41cb-8a6f-490ec2be9bbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'paragraph field access'
+type: paragraph_field_access
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

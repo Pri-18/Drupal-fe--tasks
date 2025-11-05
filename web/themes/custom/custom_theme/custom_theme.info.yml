@@ -5,7 +5,7 @@ description: A flexible theme with a responsive, mobile-first layout.
 package: Custom
 core_version_requirement: ^10
 libraries:
-  - custom_theme/global
+  - custom_theme/node
 regions:
   header: Header
   nav_branding: 'Navigation branding region'

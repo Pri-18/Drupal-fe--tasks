@@ -1,0 +1,15 @@
+.breadcrumb {
+    margin: 1.2rem auto;
+    max-width: fit-content;
+    padding: 0.2rem 1rem;
+    background: #3b4143;
+
+    &-item {
+        font-weight: 400;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+}

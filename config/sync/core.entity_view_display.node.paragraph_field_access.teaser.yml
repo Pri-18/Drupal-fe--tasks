@@ -1,0 +1,32 @@
+uuid: 1b461bea-2551-4059-993f-1efbd8d1d87e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.paragraph_field_access.body
+    - field.field.node.paragraph_field_access.field_paragraph
+    - node.type.paragraph_field_access
+  module:
+    - text
+    - user
+id: node.paragraph_field_access.teaser
+targetEntityType: node
+bundle: paragraph_field_access
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_paragraph: true

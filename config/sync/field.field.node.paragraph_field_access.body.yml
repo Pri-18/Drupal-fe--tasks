@@ -1,0 +1,24 @@
+uuid: a8ec19c2-b2f6-44d1-8d39-33008627004e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.paragraph_field_access
+  module:
+    - text
+id: node.paragraph_field_access.body
+field_name: body
+entity_type: node
+bundle: paragraph_field_access
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
