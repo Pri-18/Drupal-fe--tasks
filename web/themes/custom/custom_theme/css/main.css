@@ -1,0 +1,46 @@
+.block-quicktabs-blocknews-tabs {
+  padding: 0 26rem;
+}
+.block-quicktabs-blocknews-tabs .tabsbar ul.quicktabs-tabs {
+  justify-content: center;
+  border: none;
+}
+.block-quicktabs-blocknews-tabs .tabsbar ul.quicktabs-tabs li {
+  margin: unset;
+  padding: unset;
+}
+.block-quicktabs-blocknews-tabs .tabsbar ul.quicktabs-tabs li > a {
+  padding: 0.5rem 5.27rem;
+  font-size: 1.2rem;
+  color: #000000;
+  text-decoration: none;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-radius: 24px 24px 0 0;
+}
+.block-quicktabs-blocknews-tabs .tabsbar ul.quicktabs-tabs li.active > a {
+  background-color: #d4d2d2;
+  color: unset;
+  border-color: unset;
+  border-bottom: none;
+}
+.block-quicktabs-blocknews-tabs .tabsbar ul.quicktabs-tabs li.active > a:hover, .block-quicktabs-blocknews-tabs .tabsbar ul.quicktabs-tabs li.active > a:focus {
+  background-color: #d4d2d2;
+  color: unset;
+  border-color: unset;
+  border-bottom: none;
+}
+
+.quicktabs-tabpage .views-row {
+  margin-bottom: 2rem;
+}
+.quicktabs-tabpage .views-row .views-field-title a {
+  font-size: 1.2rem;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+.quicktabs-tabpage .views-row .views-field-body .field-content {
+  margin-top: 1.2rem;
+}/*# sourceMappingURL=main.css.map */
