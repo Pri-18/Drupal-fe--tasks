@@ -1,0 +1,15 @@
+uuid: 32c2cb6a-4f84-450e-8952-efc7b4add1da
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.todo_item
+  module:
+    - user
+id: node.todo_item.default
+targetEntityType: node
+bundle: todo_item
+mode: default
+content: {  }
+hidden:
+  links: true

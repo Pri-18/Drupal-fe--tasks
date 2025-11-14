@@ -1,0 +1,9 @@
+@use '../abstracts/' as abstract;
+
+body {
+  font-family: abstract.$font-primary !important;
+}
+
+h1 {
+  font-family: abstract.$font-heading;
+}

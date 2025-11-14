@@ -6,6 +6,8 @@ package: Custom
 core_version_requirement: ^10
 libraries:
   - custom_theme/node
+  - custom_theme/todo_list
+  - custom_theme/font_awesome
 regions:
   header: Header
   nav_branding: 'Navigation branding region'

@@ -1,10 +1,15 @@
-# Main theme library.
 node:
   css:
     theme:
-      css/node.css: {}
-      css/view-proj.css: {}
-      css/breadcrumb.css: {}
-      css/menu.css: {}
-    layout:
-      css/main.css: {}
+        css/main.css: {}
+todo_list:
+   js:
+     js/script.js: {}
+   dependencies:
+      - core/jquery
+      - core/drupal
+      - core/once
+font_awesome:
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css: { type: external, minified: true }

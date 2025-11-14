@@ -15,13 +15,13 @@
 
 {{ title_prefix }}
 {% if title|render|striptags|trim %}
+
 	{% set raw_title = title|render|striptags|trim %}
 	{% if raw_title == 'project view' %}
 		{% set title = 'Projects' %}
-		{% set title_attributes = title_attributes.addClass('project__title') %}
 	{% endif %}
 
-	<h1{{title_attributes}}>{{ title }}</h1>
+	<h1{{title_attributes.addClass('page__title')}}>{{ title }}</h1>
+
 {% endif %}
 {{ title_suffix }}
-  

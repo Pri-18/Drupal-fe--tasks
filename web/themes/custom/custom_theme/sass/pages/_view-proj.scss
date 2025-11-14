@@ -1,19 +1,7 @@
-@use './variables.scss' as var;
-
-main {
-  background: linear-gradient(to bottom left, var.$dark-gray 50%, var.$light-gray 50%);
-
-}
-
-.project__title {
-  font-size: 4rem;
-  color: var.$text-gray;
-  text-align: center;
-}
+@use '../abstracts/variables' as var;
 
 .proj-card__wrapper {
   margin: 4rem 0;
-
 
   &__item__content-wrapper {
     padding: 2.2rem;

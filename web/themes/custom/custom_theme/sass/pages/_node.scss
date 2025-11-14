@@ -1,10 +1,4 @@
-@use './variables.scss' as var;
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use '../abstracts/variables' as var;
 
 .proj-para {
   margin-top: 1rem;
