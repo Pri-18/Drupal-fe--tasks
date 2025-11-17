@@ -34,6 +34,7 @@ h1 {
 body {
   background-color: rgba(5, 5, 5, 0.9254901961);
   min-height: 100vh;
+  color: #fff;
 }
 
 main {
@@ -195,7 +196,7 @@ h1 {
   margin-bottom: 10px;
   background-color: #2D2D2D;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3019607843);
   transition: all 0.3s ease-in-out;
 }
 .todo-item .task-text {
