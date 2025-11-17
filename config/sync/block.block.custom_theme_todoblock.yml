@@ -1,0 +1,30 @@
+uuid: 1767f389-25cc-4381-a0de-baedd1db2d94
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:todo_block:6825edb5-fa11-4808-b1ab-ec1ba230587f'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_theme
+id: custom_theme_todoblock
+theme: custom_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:6825edb5-fa11-4808-b1ab-ec1ba230587f'
+settings:
+  id: 'block_content:6825edb5-fa11-4808-b1ab-ec1ba230587f'
+  label: 'ToDo Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

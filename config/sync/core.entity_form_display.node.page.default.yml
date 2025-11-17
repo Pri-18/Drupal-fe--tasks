@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_test1
+    - field.field.node.page.field_test2
     - node.type.page
   module:
     - path
@@ -30,6 +32,22 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_test1:
+    type: string_textfield
+    weight: 121
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_test2:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
