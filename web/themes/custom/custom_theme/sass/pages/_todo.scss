@@ -104,7 +104,7 @@
     color: #00ffae;
 
     &:hover {
-      color: lighten(#00ffae, 10%);
+      color: #47ffc5e7;
       transform: scale(1.1);
     }
   }
@@ -115,7 +115,7 @@
     transition: 0.4s;
 
     &:hover {
-      color: lighten(#FF5252, 10%);
+      color: #eb6868;
       transform: rotate(20deg);
     }
   }
