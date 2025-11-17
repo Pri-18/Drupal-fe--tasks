@@ -1,0 +1,34 @@
+uuid: 9d86a328-7826-41d0-a435-44ce1c9bfd1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_proj_paragraph
+    - node.type.projects
+    - paragraphs.paragraphs_type.project_para
+  module:
+    - entity_reference_revisions
+id: node.projects.field_proj_paragraph
+field_name: field_proj_paragraph
+entity_type: node
+bundle: projects
+label: proj-paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      project_para: project_para
+    negate: 0
+    target_bundles_drag_drop:
+      paragraph_test:
+        weight: 3
+        enabled: false
+      project_para:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd31dfb9ffa30712312d1c3b209a4ca7",
+    "content-hash": "2dd3450bedaf9dbf9a72fddd9f410c29",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1937,18 +1937,18 @@
             }
         },
         {
-            "name": "drupal/jquery_ui",
-            "version": "1.8.0",
+            "name": "drupal/easy_breadcrumb",
+            "version": "2.0.9",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/jquery_ui.git",
-                "reference": "8.x-1.8"
+                "url": "https://git.drupalcode.org/project/easy_breadcrumb.git",
+                "reference": "2.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jquery_ui-8.x-1.8.zip",
-                "reference": "8.x-1.8",
-                "shasum": "a53e99216a81d1e35fa357885656a2cf420f1a6a"
+                "url": "https://ftp.drupal.org/files/projects/easy_breadcrumb-2.0.9.zip",
+                "reference": "2.0.9",
+                "shasum": "9e7c33e2ec0637d37d509776795a476f2f2d9bb8"
             },
             "require": {
                 "drupal/core": "^9.2 || ^10 || ^11"

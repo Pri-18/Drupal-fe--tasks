@@ -1,0 +1,5 @@
+{% import "@custom_theme/templates/macros/menu-macros.html.twig" as menus %}
+
+{% set custom_attributes = attributes.addClass(['custom__menu']) %}
+
+{{ menus.build_menu(items, custom_attributes, 0) }}

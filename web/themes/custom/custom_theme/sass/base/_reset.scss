@@ -1,0 +1,37 @@
+@use '../abstracts/variables' as var;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+body {
+  background-color: #050505ec;
+  min-height: 100vh;
+  color: #fff;
+}
+
+main {
+  min-height: 90vh;
+  padding: 2.2rem 0;
+}

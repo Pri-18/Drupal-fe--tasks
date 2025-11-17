@@ -4,12 +4,14 @@ custom_theme.extra_small:
   weight: 0
   multipliers:
     - 1x
+    - 2x
 custom_theme.small:
   label: mobile
   mediaQuery: 'all and (min-width: 576px) and (max-width: 767px)'
   weight: 1
   multipliers:
     - 1x
+    - 2x
 custom_theme.medium:
   label: narrow
   mediaQuery: 'all and (min-width: 768px) and (max-width: 991px)'
@@ -28,3 +30,4 @@ custom_theme.extra_large:
   weight: 4
   multipliers:
     - 1x
+    - 2x
