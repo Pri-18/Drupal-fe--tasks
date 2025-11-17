@@ -1,0 +1,26 @@
+.custom__menu {
+  margin-right: 2rem;
+}
+.custom__menu .nav-item a {
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.custom__menu .nav-item a:hover {
+  color: #00ffff;
+  background-color: #4E5658;
+  border-color: #00ffff;
+}
+
+.dropdown-menu {
+  background-color: #141414;
+  width: 250px;
+  padding: 2rem;
+}
+.dropdown-menu .nav-item {
+  margin: 1rem 0;
+}/*# sourceMappingURL=menu.css.map */

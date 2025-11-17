@@ -1,0 +1,10 @@
+uuid: 6d0af58d-6210-45f6-9ce8-93eec4672f0b
+langcode: en
+status: true
+dependencies: {  }
+id: project_para
+label: 'project para'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,60 @@
+@use './variables.scss' as var;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.proj-para {
+  margin-top: 1rem;
+
+  &__title {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  &__item {
+    padding: 1rem;
+
+    &-wrapper {
+      background: linear-gradient(to bottom left, var.$gray, var.$color-dark);
+      max-height: 550px;
+      overflow-y: auto;
+      padding: 1.2rem;
+
+      box-shadow: 0 20px 30px -10px #000000b6;
+      color: #fff;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #1a1a1a;
+        border-radius: 4px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #00ffff, #0066ff);
+        border-radius: 10px;
+      }
+
+      .field--name-field-proj-para-img {
+        margin: 1rem auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

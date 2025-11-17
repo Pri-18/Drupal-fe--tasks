@@ -1,0 +1,48 @@
+main {
+  background: linear-gradient(to bottom left, #4E5658 50%, #7B8383 50%);
+}
+
+.project__title {
+  font-size: 4rem;
+  color: #808887;
+  text-align: center;
+}
+
+.proj-card__wrapper {
+  margin: 4rem 0;
+}
+.proj-card__wrapper__item__content-wrapper {
+  padding: 2.2rem;
+  background: linear-gradient(to bottom left, #020202, #333333);
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.7137254902);
+}
+.proj-card__wrapper__item {
+  padding: 1.5rem 0.5rem;
+}
+.proj-card__wrapper__item__content {
+  background: linear-gradient(to bottom left, #333333, #020202);
+  border-right: 3px solid #00ffff;
+  border-left: 3px solid #00ffff;
+  border-radius: 0 68px;
+}
+.proj-card__wrapper__item__content .views-field-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 800;
+}
+.proj-card__wrapper__item__content .views-field-title a {
+  text-decoration: none;
+  color: #63D1D6;
+}
+.proj-card__wrapper__item__content .views-field-field-proj-img img {
+  width: 100%;
+  max-height: 220px;
+}
+.proj-card__wrapper__item__content .views-field-body {
+  padding: 1rem 0.6rem 0.5rem 2.2rem;
+  color: #00ffff;
+}
+.proj-card__wrapper__item__content .views-more-link {
+  color: #0b8d8d;
+}/*# sourceMappingURL=view-proj.css.map */

@@ -1,0 +1,25 @@
+uuid: c1eba2a8-d180-42c7-b2d5-5da4aae10b75
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.custom-menu
+  module:
+    - system
+  theme:
+    - custom_theme
+id: custom_theme_custommenu
+theme: custom_theme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:custom-menu'
+settings:
+  id: 'system_menu_block:custom-menu'
+  label: 'custom menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

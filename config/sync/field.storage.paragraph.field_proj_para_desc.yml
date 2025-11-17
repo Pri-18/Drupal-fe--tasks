@@ -1,0 +1,19 @@
+uuid: b724ea0b-36e7-48e4-84ce-dad0634ff671
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_proj_para_desc
+field_name: field_proj_para_desc
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

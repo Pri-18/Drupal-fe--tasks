@@ -1,18 +1,18 @@
-uuid: 4c9ffbb5-6ae5-4712-b589-0b87a9387939
+uuid: 1b461bea-2551-4059-993f-1efbd8d1d87e
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.news.body
-    - field.field.node.news.field_type
-    - node.type.news
+    - field.field.node.paragraph_field_access.body
+    - field.field.node.paragraph_field_access.field_paragraph
+    - node.type.paragraph_field_access
   module:
     - text
     - user
-id: node.news.teaser
+id: node.paragraph_field_access.teaser
 targetEntityType: node
-bundle: news
+bundle: paragraph_field_access
 mode: teaser
 content:
   body:
@@ -29,4 +29,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_type: true
+  field_paragraph: true

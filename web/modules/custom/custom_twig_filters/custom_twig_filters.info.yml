@@ -1,0 +1,5 @@
+name: Custom Twig Filters
+type: module
+description: Provides extra Twig filters (e.g., reading time).
+package: Custom
+core_version_requirement: ^10

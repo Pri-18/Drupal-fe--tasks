@@ -1,17 +1,18 @@
-uuid: ff677997-320e-462d-9607-5ac0e27c1de9
+uuid: d63022a3-f895-4dd1-8aba-298762315a63
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.news.body
-    - field.field.node.news.field_type
-    - node.type.news
+    - field.field.node.paragraph_field_access.body
+    - field.field.node.paragraph_field_access.field_paragraph
+    - node.type.paragraph_field_access
   module:
+    - entity_reference_revisions
     - text
     - user
-id: node.news.default
+id: node.paragraph_field_access.default
 targetEntityType: node
-bundle: news
+bundle: paragraph_field_access
 mode: default
 content:
   body:
@@ -21,11 +22,12 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_type:
-    type: entity_reference_label
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
     label: above
     settings:
-      link: true
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 102
     region: content

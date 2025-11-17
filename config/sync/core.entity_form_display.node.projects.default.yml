@@ -1,17 +1,21 @@
-uuid: a3c4143d-4fef-4925-b4f5-f4ab1a64b688
+uuid: cdb217d2-f7f2-4ab2-b319-0cf2acbc983e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.news.body
-    - field.field.node.news.field_type
-    - node.type.news
+    - field.field.node.projects.body
+    - field.field.node.projects.field_proj_img
+    - field.field.node.projects.field_proj_paragraph
+    - image.style.thumbnail
+    - node.type.projects
   module:
+    - image
+    - paragraphs
     - path
     - text
-id: node.news.default
+id: node.projects.default
 targetEntityType: node
-bundle: news
+bundle: projects
 mode: default
 content:
   body:
@@ -30,15 +34,31 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_type:
-    type: entity_reference_autocomplete
+  field_proj_img:
+    type: image_image
     weight: 122
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_proj_paragraph:
+    type: paragraphs
+    weight: 123
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
     third_party_settings: {  }
   path:
     type: path

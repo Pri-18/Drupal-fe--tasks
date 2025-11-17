@@ -1,8 +1,10 @@
 # Main theme library.
-global:
-  js:
-    js/custom-theme.js: {}
+node:
   css:
+    theme:
+      css/node.css: {}
+      css/view-proj.css: {}
+      css/breadcrumb.css: {}
+      css/menu.css: {}
     layout:
-      css/layout/layout.css: {}
       css/main.css: {}
