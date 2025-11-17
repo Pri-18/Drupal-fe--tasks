@@ -1,0 +1,12 @@
+uuid: bb420857-6f97-4a31-b796-a0737f1e9d4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.todo_block
+id: block_content.todo_block.default
+targetEntityType: block_content
+bundle: todo_block
+mode: default
+content: {  }
+hidden: {  }

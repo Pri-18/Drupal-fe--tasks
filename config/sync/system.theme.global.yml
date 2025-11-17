@@ -11,6 +11,6 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://Aexpert.svg'
+  path: ''
   url: null
-  use_default: false
+  use_default: true

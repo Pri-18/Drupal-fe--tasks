@@ -12,11 +12,13 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  custom_twig_filters: 0
   datetime: 0
   dblog: 0
-  devel_generate: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -24,7 +26,6 @@ module:
   help: 0
   history: 0
   image: 0
-  js_cookie: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -34,7 +35,6 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
-  quicktabs: 0
   search: 0
   shortcut: 0
   system: 0
@@ -45,6 +45,7 @@ module:
   user: 0
   views_ui: 0
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   olivero: 0
